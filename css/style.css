@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header start */
+header{
+    background-color: #121B2A;
+    padding: 6px 0px;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.logo {
+    width: 15%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    width: 70%;
+    float: right;
+    margin-top: 22px;
+
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 25px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+    color: #055788;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+/* header start */
+
+/* banner start */
+.banner {
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner_contant {
+    width: 47%;
+    margin: 240px 0px 80px;
+}
+.banner_contant h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    text-transform: capitalize;
+    display: inline;
+}
+.banner_contant h2{
+    font-family: sans-serif;
+    font-size: 39px;
+    color: #055788;
+    text-transform: capitalize;
+    display: inline;
+}
+.banner_contant p{
+    font-family: sans-serif;
+    color: white;
+    line-height: 25px;
+
+}
+.banner_contant button{
+    width: 238px;
+    height: 54px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #5A5A5A;
+    text-transform: uppercase;
+    background-color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.banner_contant button:focus{
+    outline: 0;
+}
+/* banner end */
+
+/* service start */
+.service {
+    background-color: #121B2A;
+    padding: 30px 0px 10px;
+}
+.single {
+    border-right: 1px solid white;
+    width: 29%;
+    padding: 20px 15px 30px;
+    float: left;
+    margin-right: 23px;
+}
+.single:last-child .top h3 {
+    margin-top: 24px;
+}
+.single:last-child {
+    margin: 0;
+    border: 0;
+}
+.top {
+    overflow: hidden;
+}
+.t_image {
+    width: 25%;
+    float: left;
+}
+.t_image img{
+    width: 100%;
+}
+.t_text {
+    width: 60%;
+    float: left;
+    margin-top: 16px;
+}
+.t_text h2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+    margin: 0;
+}
+.t_text h3{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #055788;
+    margin: 0;
+}
+.t_text h3 span{
+    font-weight: 400;
+    color: white;
+}
+.bottom {
+    margin-top: 20px;
+}
+.bottom p{
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    line-height: 25px;
+}
+/* service end */
+
+
+
+
+
+/* contact start */
+.contact {
+    background-color: #040811;
+    padding: 20px 0px;
+}
+.wrapper2 {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.info {
+    width: 30%;
+    float: left;
+    margin-right: 45px ;
+}
+.info:last-child{
+    margin-right: 0;
+}
+.info:last-child h3 span{
+    font-weight: 700;
+}
+.top2 {
+    width: 100%;
+}
+.t_text2 {
+}
+.t_text2 h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.t_text2 h3 span{
+    color: #055788;
+}
+.bottom2 {
+}
+.bottom2 p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+}
+.email {
+}
+.email p{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+.email p{
+    font-weight: 400;
+    margin-top: 0;
+}
+.mobile_img {
+    width: 50%;
+    float: left;
+}
+.mobile_img img{
+    width: 80%;
+}
+.btn {
+    width: 45%;
+    float: left;
+}
+.t_text2 {
+}
+/* contact end */
+
+/* footer start */
+footer{
+    background-color: #121B2C;
+}
+.footer_menu {
+    width: 65%;
+    overflow: hidden;
+}
+.footer_menu ul{
+    overflow: hidden;
+    padding-left: 0;
+}
+.footer_menu ul li{
+    float: left;
+    list-style: none;
+}
+.footer_menu ul li a{
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding: 0px 25px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.footer_menu ul li:first-child a{
+    padding-left: 0;
+}
+.footer_menu ul li:last-child a{
+    border-right: 0;
+    padding-right: 0;
+}
+.symble{
+    width: 50%;
+    float: right;
+}
+.footer_menu {
+    overflow: hidden;
+}
+.wrapper2 p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    padding: 0px 0px;
+    display: inline-block;
+}
+/* footer end */
+
+
